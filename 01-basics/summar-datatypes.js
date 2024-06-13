@@ -54,3 +54,18 @@ let userTwo = userOne;
 userTwo.email = "adarshtiwari@mail.com";
 console.log(userOne.email);
 console.log(userTwo.email);
+
+let myName = "Adarsh";
+let completeName = myName;
+completeName = "Adarsh Tiwari";
+console.log(myName);
+console.log(completeName);
+
+let myTest = {
+    name: "Adarsh",
+    age: 22
+}
+let myTestTwo = myTest;
+myTestTwo.age = 23;
+console.log(myTest.age);
+console.log(myTestTwo.age);
